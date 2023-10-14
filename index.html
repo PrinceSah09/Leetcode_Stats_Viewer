@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/LeetCode_logo_rvs.png" type="image/x-icon">
+    <title>Leetcode Stats Visualizer </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="head1">
+        <div class="content">
+            <div class="search1">
+                <div class="searchtab">
+                    <button class="submit_username1" type="submit"> <img src="image/LeetCode_logo_rvs.png" alt="">
+                    </button>
+
+                    <input class="search2" placeholder="user name.." type="text">
+                    <button class="submit_username" type="submit"> Search </button>
+                </div>
+            </div>
+
+            <div class="contentinner">
+                <div class="first">
+                    <p class="containerHeading">solved question</p>
+                    <div class="solvedQuestion">
+                        0
+                    </div>
+
+                    <div class="other">
+
+
+
+                        <div class="stats" >
+                            <div class="rank ranking"><span style="border-radius: 30px; width:210px ;">Reputation
+                                </span></div>
+                            <div class="rank ranking"><span style="border-radius: 30px;  width:140px "
+                                    id="reputation">0</span>
+                            </div>
+                        </div>
+
+
+                        <div class="stats" >
+                            <div class="rank ranking"><span style="border-radius: 30px; width:210px ;">contribution
+                                </span></div>
+                            <div class="rank ranking">
+                                <span style="border-radius: 30px;  width:140px" id="contribution">0</span>
+                            </div>
+                        </div>
+
+
+
+                        <div class="stats">
+                            <div class="rank ranking"><span style="border-radius: 30px; width:210px ;">Global Rank
+                                </span></div>   
+                            <div class="rank ranking"><span style="border-radius: 30px;  width:140px "
+                                    id="GlobalRank">0 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="second">
+                    <div id="box1" class="box">
+                        <div class="rank ranking1"><span style="border-radius: 30px; color: green; width:140px  ">Easy</span>
+                        </div><span id="easy" >0</span>
+                    </div>
+                    <div id="box2" class="box">
+                        <div class="rank ranking1"><span style="border-radius: 30px; color: yellow; width:140px ">Medium</span>
+                        </div><span id="medium">0</span>
+                    </div>
+                    <div id="box3" class="box">
+                        <div class="rank ranking1"><span style="border-radius: 30px; color: red; width:140px ">Hard</span>
+                        </div><span id="hard">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
